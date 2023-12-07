@@ -1,8 +1,8 @@
-const table = document.getElementById("table");
+const table = document.getElementById('table');
 
 const isPrimeNumber = (num) => {
   if (num == 1) {
-    return true
+    return true;
   }
 
   for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -24,7 +24,7 @@ for (let i = 1; i <= 100; i++) {
     // prime;
     nodeEl = `<button style="background-color: red;">${i}</button>`;
   } else {
-    // odd.;
+    // odd;
     nodeEl = `<button style="background-color: yellow;">${i}</button>`;
   }
 
